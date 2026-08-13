@@ -32,7 +32,7 @@ player_alive = True
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 
-while player_alive == True:
+while player_alive: # reads as true
     print("You come to a split in the path.")
     path_chosen = input("Do you want to go left or right?")
 
