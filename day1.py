@@ -1,1 +1,5 @@
-# Angela Yu Day 1
+# Angela Yu Day 1 - Band Name Generator
+print("Welcome to the Band Name Generator App\n")
+city = input("What's the name of the city you grew up?\n")
+petName = input("What's your pet's name?\n")
+print("Your band name could be " + city + " " + petName )
